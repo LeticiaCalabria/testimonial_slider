@@ -1,8 +1,3 @@
-
-
-//TODO click event
-
-
 window.addEventListener('load', function() {
     const audioElement = document.getElementById('audio');
     const startButton = document.getElementById('start-btn');
@@ -81,5 +76,5 @@ function updateTestimonial() {
     }
     setTimeout(()=>{
         updateTestimonial()
-    }, 12000);
+    }, 15000);
 }
